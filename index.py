@@ -143,7 +143,7 @@ def webhook():
             chat_reply = search_keyword(text)
             reply = {'recipient': {'id': sender}, 'message': {'text': chat_reply}}
             sent = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + token, json=reply)
-        break
+    break
 
             print(data)
 
