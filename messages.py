@@ -30,12 +30,20 @@ chat_responses['location-button'] = [
 ]
 
 chat_responses['greetings'] = [
-    'Oi, tudo bem? Vamos ver como anda o clima por aí?',
-    'Oie! Tá querendo saber o clima de onde?',
-    'Olá! Quer saber a temperatura de algum lugar?',
-    'Oi! Será que tá chovendo aí?',
-    'Oi! Quer saber informações metereológicas de qual lugar?',
-    'Oie! Será que chove ou faz sol lá fora?',
+    'Oi, tudo bem? Vamos escolher um bolo hoje?',
+    'Oie!, tudo bem? ',
+    'Olá! Já conhece o melhor bolo de Suzano, Guarulhos e região?',
+    'Oi! vamos aproveitar nossas promoções!?',
+    'Nesse tempo, nada melhor que um bolo!',
+    'Já conhece nosso bolo MATA TPM?',
+]
+
+chat_responses['values'] = [
+    'Nossos preços são os melhores',
+    'Não compre com o QueroBolos Suzano, eles são mais caros! ',
+    'Se você é Supervisor de IT na Cummins tem desconto!',
+    'Frete por nossa conta, entregas na cummins!',
+    'Nesse tempo, nada melhor que um bolo!',
 ]
 
 chat_responses['thanks'] = [
@@ -73,6 +81,15 @@ chat_keywords['greetings'] = [
     'boa tarde',
     'boa noite',
     'eae'
+]
+
+chat_keywords['values'] = [
+    'preço',
+    'valor',
+    'orçamento',
+    'quanto custa',
+    'custa',
+    'preco',
 ]
 
 chat_keywords['good-bye'] = [
