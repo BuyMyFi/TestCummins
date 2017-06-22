@@ -39,7 +39,6 @@ chat_responses['greetings'] = [
 ]
 
 chat_responses['values'] = [
-    'Nossos preços são os melhores',
     'Não compre com o QueroBolos Suzano, eles são mais caros! ',
     'Se você é Supervisor de IT na Cummins tem desconto!',
 ]
