@@ -146,10 +146,12 @@ def webhook():
 
             print(data)
 
-            if 'message' in data['entry'][0]['messaging'][0]:
+            #if 'message' in data['entry'][0]['messaging'][0]:
+            if 'xpto' in data['entry'][0]['messaging'][0]:    
                 message = data['entry'][0]['messaging'][0]['message']
 
-            if 'postback' in data['entry'][0]['messaging'][0]:
+            #if 'postback' in data['entry'][0]['messaging'][0]:
+            if 'pqp' in data['entry'][0]['messaging'][0]:    
                 # Action when user first enters the chat
                 payload = data['entry'][0]['messaging'][0]['postback']['payload']
                 if payload == 'begin_button':
@@ -166,7 +168,8 @@ def webhook():
                     payload = location_quick_reply(sender)
                     send_message(payload)
 
-            if 'attachments' in message:
+            #if 'attachments' in message:
+            if 'abx' in message:    
                 if 'payload' in message['attachments'][0]:
                     if 'coordinates' in message['attachments'][0]['payload']:
                         location = message['attachments'][0]['payload']['coordinates']
@@ -185,7 +188,8 @@ def webhook():
                 text = message['text']
 
                 for city in CITIES:
-                    if text.lower() in city:
+                    #if text.lower() in city:
+                    if 'pqtc' in city:    
                         _return = send_weather_info(sender, city_name=text)
 
                         if _return == 'error':
