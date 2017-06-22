@@ -57,6 +57,10 @@ chat_responses['good-bye'] = [
     'Tchau-tchau! 8)',
 ]
 
+chat_responses['tipos'] = [
+    'Temos os bolos de: Floresta Negra, Prestígio, Chocolate e Mata TPM. Você pode também montar o seu personalizado.',
+]
+
 
 def get_message(response_type):
     """
@@ -109,6 +113,14 @@ chat_keywords['thanks'] = [
     'obrigado',
     'valeu',
     'thank',
+]
+
+chat_keywords['tipos'] = [
+    'tipos de bolo',
+    'sabores',
+    'tipos',
+    'lista',
+    'quais são os sabores',
 ]
 
 
