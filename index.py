@@ -139,6 +139,9 @@ def webhook():
         try:
             data = json.loads(request.data.decode())
             sender = data['entry'][0]['messaging'][0]['sender']['id']
+            text = data['entry'][0]['messaging'][0]['message']['text']
+            x = {'recipient': {'id': sender}, 'message': {'text': "Hello World"}}
+            y = requests.post('https://graph.facebook.com/v2.6/me/messages/?access_token=' + token, json=x)
 
             print(data)
 
