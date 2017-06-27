@@ -63,7 +63,7 @@ def get_message(response_type):
     """
     if response_type in chat_responses:
         return random.choice(chat_responses[response_type])
-	return random.choice(chat_responses['no_answer'])
+    return random.choice(chat_responses['no_answer'])
 
 
 
@@ -123,7 +123,7 @@ chat_keywords['tipos'] = [
     '3930906',
     '3357573',
     'AR9759',
-    'TB1280BD'
+    'TB1280BD',
 ]
 
 
