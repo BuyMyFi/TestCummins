@@ -24,23 +24,17 @@ chat_responses['no_answer'] = [
     'Não saquei... foi mal... ;(',
 ]
 
-chat_responses['location-button'] = [
-    'Digite uma cidade ou aperte no botão abaixo para saber o clima. :)',
-    'Escreva o nome de uma cidade ou use o botão abaixo...',
+chat_responses['status'] = [
+    'Digite o código do pedido que você quer saber o status:',
 ]
 
 chat_responses['greetings'] = [
-    'Oi, tudo bem? Vamos escolher um bolo hoje?',
-    'Oie!, tudo bem? ',
-    'Olá! Já conhece o melhor bolo de Suzano, Guarulhos e região?',
-    'Oi! vamos aproveitar nossas promoções!?',
-    'Nesse tempo, nada melhor que um bolo!',
-    'Já conhece nosso bolo MATA TPM?',
+    'Oi, tudo bem? Como posso ajudar?',
+    'Olá! Como posso ajudar?',
 ]
 
-chat_responses['values'] = [
-    'Não compre com o QueroBolos Suzano, eles são mais caros! ',
-    'Se você é Supervisor de IT na Cummins tem desconto!',
+chat_responses['disponibilidade'] = [
+    'Você gostaria de saber a disponibilidade de qual item?',
 ]
 
 chat_responses['thanks'] = [
@@ -84,13 +78,12 @@ chat_keywords['greetings'] = [
     'eae'
 ]
 
-chat_keywords['values'] = [
-    'preço',
-    'valor',
-    'orçamento',
-    'quanto custa',
-    'custa',
-    'preco',
+chat_keywords['disponibilidade'] = [
+    'disponibilidade',
+    'estoque',
+    'quero saber o estoque',
+    'tem disponível',
+    'disponivel'
 ]
 
 chat_keywords['good-bye'] = [
@@ -110,6 +103,15 @@ chat_keywords['thanks'] = [
     'obrigado',
     'valeu',
     'thank',
+]
+
+chat_keywords['status'] = [
+    'status',
+    'faturado',
+    'já foi faturado',
+	'coletado',
+	'saiu',
+	'qual o status',
 ]
 
 chat_keywords['tipos'] = [
