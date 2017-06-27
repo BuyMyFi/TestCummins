@@ -56,6 +56,12 @@ chat_responses['tipos'] = [
 	'Temos neste momento 167 unidades disponíveis em estoque',
 ]
 
+chat_responses['melhor'] = [
+    'O igor é muito dedicado',
+    'O igor é muito esperto',
+    'O igor é muito humilde',
+]
+
 
 def get_message(response_type):
     """
@@ -124,6 +130,15 @@ chat_keywords['tipos'] = [
     '3357573',
     'AR9759',
     'TB1280BD',
+]
+
+chat_keywords['melhor'] = [
+    'melhor',
+    'dedicado',
+    'esperto',
+    'humilde',
+	'o que acha',
+	'igor',
 ]
 
 
