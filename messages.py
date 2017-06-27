@@ -49,7 +49,11 @@ chat_responses['good-bye'] = [
 ]
 
 chat_responses['tipos'] = [
-    'Temos os bolos de: Floresta Negra, Prestígio, Chocolate e Mata TPM. Você pode também montar o seu personalizado.',
+    'Temos neste momento 23 unidades disponíveis em estoque',
+	'Temos neste momento 12 unidades disponíveis em estoque',
+	'Temos neste momento 45 unidades disponíveis em estoque',
+	'Temos neste momento 72 unidades disponíveis em estoque',
+	'Temos neste momento 167 unidades disponíveis em estoque',
 ]
 
 
@@ -117,11 +121,10 @@ chat_keywords['status'] = [
 ]
 
 chat_keywords['tipos'] = [
-    'tipos de bolo',
-    'sabores',
-    'tipos',
-    'lista',
-    'quais são os sabores',
+    '3930906',
+    '3357573',
+    'AR9759',
+    'TB1280BD'
 ]
 
 
