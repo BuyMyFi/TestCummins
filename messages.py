@@ -63,8 +63,7 @@ def get_message(response_type):
     """
     if response_type in chat_responses:
         return random.choice(chat_responses[response_type])
-	else	
-        return random.choice(chat_responses['no_answer'])
+	return random.choice(chat_responses['no_answer'])
 
 
 
